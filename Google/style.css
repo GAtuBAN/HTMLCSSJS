@@ -1,0 +1,129 @@
+body {
+    justify-content: space-between;
+    font-family: arial;
+    color: #5f6368;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+header img {
+    width: 15px;
+    margin-left: 20px;
+}
+
+span {
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+img.profile {
+    width: 35px;
+    border-radius: 50%;
+}
+
+section img#logo {
+    width: 15%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section div {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+section div img {
+    width: 25px;
+    position: absolute;
+    right: 5px;
+}
+
+section div img.search {
+    width: 17px;
+    position: absolute;
+    left: 10px;
+}
+
+section div input[type="text"] {
+    padding: 15px 30px;
+    border-radius: 50px;
+    width: 480px;
+    border: 1px solid #f2f2f2;
+}
+div#button {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+section div.sub {
+    margin-top: 30px;
+}
+
+.sub input[type="submit"] {
+    padding: 9px 16px;
+    border: 1px solid #f2f2f2;
+    margin: 0 7px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+section span {
+    margin: 30px 0;
+}
+
+span a {
+    text-decoration: none;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #969ba1;
+    display: flex;
+    align-items: center;
+}
+
+footer div span {
+    padding: 0 20px;
+    font-size: 15px;
+    color: #969ba1;
+}
+
+footer {
+    background: #f7f7f7;
+    padding: 10px 10px;
+}
+
+hr {
+    width: 100%;
+    border-color: #ffffff57;
+}
+a img {
+    margin: 0 5px;
+}
