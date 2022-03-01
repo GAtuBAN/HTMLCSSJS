@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9ECEF;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #bfbfbf;
+    padding: 10px 20px;
+}
+header h1 {
+    font-weight: 700;
+    color: #874d60;
+    font-size: 32px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 20px;
+    list-style: none;
+}
+header ul a {
+    font-weight: 600;
+    color: #000;
+    margin-right: 20px;
+}
+
+section h3 {
+    font-size: 64px;
+    color: #7e993d;
+    font-weight: 600;
+}
+section h5 {
+    font-weight: 600;
+    color: #9bc367;
+    margin-top: 20px;
+}
+section ul#homepage-list {
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+section#main-desc {
+    padding: 10px 20px;
+}
+section#main-desc h3 {
+    text-align: center;
+    color: #765523;
+}
+section#main-desc h5 {
+    color: #ed9f2a;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: #4e056c;
+}
+
+main h5 {
+    text-align: center;
+    color: #a36db9;
+    font-weight: 600;
+}
